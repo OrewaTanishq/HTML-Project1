@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <form action="login.html" method="get">
+      <p>
+        <input type="text" placeholder="Enter Full Name" required />
+      </p>
+
+      <p>
+        <input type="email" placeholder="Enter Email Address" required />
+      </p>
+
+      <p>
+        <input type="password" placeholder="Create Password" required />
+      </p>
+
+      <p>
+        <label>Date of Birth:</label><br />
+        <input type="date" />
+      </p>
+
+      <p>
+        <input type="tel" placeholder="Enter Mobile Number" maxlength="10" />
+      </p>
+
+      <p>
+        <input type="file" />
+      </p>
+
+      <p>
+        <input type="radio" name="gender" id="male" checked />
+        <label for="male">Male</label><br />
+
+        <input type="radio" name="gender" id="female" />
+        <label for="female">Female</label>
+      </p>
+
+      <p>
+        <label>Skills:</label><br />
+        <input type="checkbox" id="java" />
+        <label for="java">Java</label><br />
+
+        <input type="checkbox" id="html" />
+        <label for="html">HTML</label><br />
+
+        <input type="checkbox" id="css" />
+        <label for="css">CSS</label>
+      </p>
+
+      <p>
+        <select>
+          <option disabled selected>Select Course</option>
+          <option>Java Full Stack</option>
+          <option>Python Full Stack</option>
+          <option>Web Development</option>
+        </select>
+      </p>
+
+      <input type="reset" />
+      <button type="submit">Register</button>
+    </form>
+  </body>
+</html>
